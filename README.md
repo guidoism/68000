@@ -13,4 +13,12 @@
 
 ## Design Details
 
-- We will use FC0, FC1, and FC2 as 3 extra address pins so we can address 64 MB of RAM
+- We will use FC0, FC1, and FC2 as 3 extra address pins so we can address 64 MB of RAM (if this really works)
+
+### Clock
+
+- The SK68K uses a high-speed flip flop to divide the crytal's clock
+  signal by 2. Apparently this is done to square off the signal better
+  and make the duty cycle more even.
+  
+
